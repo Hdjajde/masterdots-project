@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <title>Materdots Project</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -14,28 +17,30 @@
      </header>
      <!--cuerpo del proyecto-->
      <main>
-        <form action="#">
-            <div class="itemform">
-                <label for="nick">Escribe tu nick: </label>
-                <input type="text" name="nick" id="nick">
-            </div>
-            <div class="itemform">
-                <label for="tamanio">tamaño del juego</label>
-                <select name="tamanio" id="tamanio">
-                    <option value="">Selecciona un tamaño</option>
-                    <option value="1">4x4</option>
-                    <option value="2">5x5</option>
-                    <option value="3">6x6</option>
-                </select>
-            </div>
-            <div class="itemform">
-                <input type="submit" value="Jugar">
-            </div>
-        </form>
+        <div class="caja">
+            <form action="#">
+                <div class="itemform">
+                    <label for="nick">Escribe tu nick: </label>
+                    <input type="text" name="nick" id="nick">
+                </div>
+                <div class="itemform">
+                    <label for="tamanio">Tamaño del juego</label>
+                    <select name="tamanio" id="tamanio">
+                        <option value="">Selecciona un tamaño</option>
+                        <option value="1">4x4</option>
+                        <option value="2">5x5</option>
+                        <option value="3">6x6</option>
+                    </select>
+                </div>
+                <div class="itemform">
+                    <input type="submit" value="Jugar">
+                </div>
+            </form>
+        </div>
      </main>
      <!-- footer del proyecto-->
      <footer>
-        <p>Curso FrontEnd HTML, CSS y JS</p>
+        <p>Curso de FrontEnd HTML, CSS y JS</p>
      </footer>
 </body>
 </html>

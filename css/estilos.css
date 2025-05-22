@@ -1,1 +1,25 @@
- 
+ body{
+    background-color: #f5f5f5;
+    font-family: 'noto sans jp';
+ }
+ header, footer{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 30px auto 0px auto;
+ }
+ main{
+    width: 400px;
+    margin: 30px auto 0px auto;
+ }
+.caja{
+    background-color: #bdf0be;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 3px 3px 3px rgba(0.4, 0.4, 0.4, 0.4);
+    /*box-shadow: 0px 4px 10px rgba(0.2, 0.2, 0.2, 0.2);*/
+}
+select, input{
+    font-family: 'noto sans jp';
+    background-color: #f5f5f5;
+}
